@@ -1,0 +1,44 @@
+<html>
+
+<form name="dados" method="post" action="salvar.html">
+	<center>
+		<table border=1 width=40%>	
+			<tr>
+			    <td width=10%>Nome</td>
+			    <td width=30%><input name="nome" type="text" size="70" required></td>		
+			</tr>
+			<tr>
+			    <td>E-mail</td>
+			    <td><input name="email" type="email" size="70" required></td>			
+			</tr>
+			<tr>
+			    <td>Idade</td>
+			    <td><input name="idade" type="number" size="70"></td>			
+			</tr>
+			<tr>
+			    <td>Data</td>
+			    <td><input name="data" type="date" size="20"></td>			
+			</tr>
+			<tr>
+			    <td>Sugestão</td>	
+			    <td><textarea name="sugestao" size="70" required></textarea></td>		
+			</tr>
+			<tr>
+			    <td colspan="2"><center>
+				<input name="enviar" value="Enviar" type="submit" size="20">
+				<input name="limpar" value="Limpar" type="reset" size="20">
+			    </center></td>			
+			</tr>
+		</table>
+	</center>
+
+
+</form>
+
+</htm>
+<script>
+
+	 nome = prompt("Qual seu nome?");
+		
+	 confirm("Seja Bem Vindo " + nome + " " + nome.substring(0,3));
+</script>
